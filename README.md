@@ -5,7 +5,7 @@ Home: https://api.kde.org/frameworks/kpackage/html/index.html
 
 Package license: GPL-v2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Installation and loading of additional content (ex: scripts, images...) as packages
 
