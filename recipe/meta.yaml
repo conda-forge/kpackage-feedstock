@@ -1,5 +1,5 @@
 {% set name = "kpackage" %}
-{% set version = "5.72.0" %}
+{% set version = "5.73.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kpackage-{{ version }}.tar.xz
-  sha256: ec512226309be1f44c527cb940d6995214611617f12c49ec7b6c3aaa3786933a
+  sha256: 480b1e11733fe272d1a5680afea39bcc940f01bd3d1267be0981e3c92e098c4f
 
 build:
   number: 0
