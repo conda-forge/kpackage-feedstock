@@ -3,11 +3,13 @@ About kpackage
 
 Home: https://api.kde.org/frameworks/kpackage/html/index.html
 
-Package license: GPL-v2
+Package license: GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kpackage-feedstock/blob/master/LICENSE.txt)
 
 Summary: Installation and loading of additional content (ex: scripts, images...) as packages
+
+Development: https://cgit.kde.org/kpackage.git/tree
 
 The KPackage framework lets the user install and load packages of
 non binary content such as scripted extensions or graphic assets,
