@@ -1,5 +1,5 @@
 {% set name = "kpackage" %}
-{% set version = "5.74.0" %}
+{% set version = "5.76.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kpackage-{{ version }}.tar.xz
-  sha256: b5616d265b2f404b3bc8e389644185d66bf59a685ab40bbf646d36c3f56ff6ae
+  sha256: 97791ef08ca18892d6aa6a50fa0a87ae72cad10de9f17e3fb503a370de829772
 
 build:
   number: 0
@@ -35,10 +35,9 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kpackage/html/index.html
-  license: GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later
+  license: GPL-2.0-or-later AND LGPL-2.0-or-later
   license_file:
     - LICENSES/GPL-2.0-or-later.txt
-    - LICENSES/LGPL-2.0-only.txt
     - LICENSES/LGPL-2.0-or-later.txt
   summary: 'Installation and loading of additional content (ex: scripts, images...) as packages'
   description: |
