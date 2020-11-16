@@ -35,10 +35,9 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kpackage/html/index.html
-  license: GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later
+  license: GPL-2.0-or-later AND LGPL-2.0-or-later
   license_file:
     - LICENSES/GPL-2.0-or-later.txt
-    - LICENSES/LGPL-2.0-only.txt
     - LICENSES/LGPL-2.0-or-later.txt
   summary: 'Installation and loading of additional content (ex: scripts, images...) as packages'
   description: |
